@@ -11,6 +11,10 @@ body {
   padding-top: 100px;
 }
 
+.middle-container {
+  background-color: aqua;
+}
+
 h1 {
   font-size: 5.625em;
   padding: 10px;
@@ -52,9 +56,9 @@ h3 {
 
 a {
   color: #11999E;
-  font-size: 2rem;
+  font-size: 3rem;
   text-decoration: none;
-  padding: 10px;
+  padding: 30px;
 }
 a:hover {
   color: white;
@@ -81,12 +85,12 @@ a:hover {
 
 p {
   color: #40514E;
+  padding: 20px;
 }
 
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px;
-  margin-top: 150px;
 }
 
 .name-footer {
@@ -102,7 +106,7 @@ p {
 }
 
 .btn:hover {
-  color: grey;
+  color: white;
 }
 
 hr {
