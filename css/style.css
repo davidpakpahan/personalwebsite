@@ -1,39 +1,115 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: "Merriweather", Sans-Serif;
+  background-color: #eaeaea;
 }
 
 .top-container {
-  background-color:#B8FFF9;
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
 }
 
-.one-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+h1 {
+  font-size: 5.625em;
+  padding: 10px;
+  font-family: "Sacramento";
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+.top-bird {
   position: absolute;
-  left: 400px;
-  margin-top: 400px;
+  right: 65%;
+  top: 25px;
+  width: 100px;
+  height: 100px;
 }
 
-.two-container {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
-}
-
-.three-container {
-  background-color: yellow;
-  width: 200px;
-  height: 200px;
+.top-cloud {
   position: absolute;
-  left: 200px;
+  right: 20%;
+  top: 50px;
 }
 
-.Fullstack {
-  text-decoration: underline;
-}
-
-.cloud2 {
+.bottom-cloud {
   position: absolute;
-  right: 100px;
+  left: 150px;
+  top: 300px;
+}
+
+a {
+  color: #11999E;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 10px;
+}
+a:hover {
+  color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.ecommerce-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.birojodoh-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+p {
+  color: #40514E;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+  margin-top: 150px;
+}
+
+.name-footer {
+  color: #EAF6F6;
+  font-size: 10px;
+}
+
+.btn {
+  background-color:#66BFBF;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px 10px 10px 10px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  border-width: 15px;
+  color: grey;
+  margin: 30px auto 30px auto;
 }
